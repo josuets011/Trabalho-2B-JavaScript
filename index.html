@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Trabalho 2B</title>
+</head>
+<body>
+    <div class="background" id="background"></div>
+    <div class="titulo">
+    <h1>Calculadora de IMC</h1>
+    <h1>(Índice de Massa Corporal)</h1>
+</div>
+  
+    <div class="quadrado">
+        <div class="dados">
+            <h3>Insira os dados</h3>
+        </div>
+        <div class="campos">
+            <div class="input">
+                Peso: <input type="text" id="peso">              
+            </div>
+            
+            <div class="input">
+                Altura: <input type="text" id="altura">
+            </div>
+        </div>
+
+        <div>
+            <button type="submit" onclick="IMC()"  > Calcular IMC</button>
+        </div>
+        <div id="erro"></div>
+        <div id="imc"></div>
+
+        <div id="resultado"></div>
+
+    </div>
+
+
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>
